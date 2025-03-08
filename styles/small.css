@@ -1,0 +1,247 @@
+:root {
+    --primary-color: #093A3E;
+    --secondary-color: #3AAFB9;
+    --accent1-color: #64E9EE;
+    --accent2-color: #EDBF85;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--accent1-color);
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    border: solid 2px var(--primary-color);
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.navigation.show li {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.navigation.show a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.navigation.show a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    text-decoration: none;
+}
+
+#menu::after {
+    content: "≡";
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+#menu.show::after {
+    content: "X";
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-family: "Montserrat", sans-serif;
+}
+
+main h1 {
+    font-family: "Montserrat", sans-serif;
+    margin: 1rem;
+    color: var(--primary-color);
+}
+
+main {
+    margin-bottom: 1rem;
+}
+
+main h2 {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.sections {
+    display: block;
+    margin: 1rem;
+}
+
+.work {
+    margin-bottom: 1rem;
+    border: solid 2px var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    background-color: var(--accent2-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.work ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.work li {
+    margin-left: 2rem;
+}
+
+.place {
+    margin-bottom: 1rem;
+    border: solid 2px var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    background-color: var(--accent2-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.place figure {
+    margin: 1rem;
+}
+
+.place img {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    border: solid 2px var(--primary-color);
+    border-radius: 0.3rem;
+}
+
+.place figcaption {
+    margin: 0.5rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: var(--primary-color);
+}
+
+
+.certificate {
+    grid-area: 2/1/3/4;
+    border: solid 2px var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    height: auto;
+    background-color: var(--accent2-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: solid 1px var(--primary-color);
+}
+
+.buttons button {
+    width: 100px;
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 0.3rem;
+}
+
+.courses {
+    display: block;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.courses p {
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--primary-color);
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses .completed {
+    background-color: var(--secondary-color);
+}
+
+.credits {
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-color);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+footer {
+    padding: 2rem;
+    background: var(--accent1-color);
+    height: 15vh;
+  }
+
+.footer-js {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}

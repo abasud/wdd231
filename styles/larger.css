@@ -1,0 +1,68 @@
+@media (min-width: 480px) {
+
+    header img {
+        margin-left: 5rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        list-style: none;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    header nav {
+        margin-top: 1rem;
+        background-color: var(--primary-color);
+        height: 50px;
+    }
+
+    header ul {
+        display: flex;
+        list-style: none;
+        padding-top: 1rem;
+    }
+
+    header a:hover {
+        text-decoration: underline;
+        color: var(--accent2-color);
+    }
+
+    .sections {
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .work {
+        grid-area: 1/1/2/3;
+    }
+
+    .place {
+        grid-area: 1/3/2/4;
+    }
+
+    .courses {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .courses p {
+        margin-bottom: 0;
+    }
+
+    .footer-js {
+        font-size: 1.2rem;
+    }
+}
