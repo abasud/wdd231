@@ -8,8 +8,8 @@ function createCourseCard(courses) {
         let card = document.createElement("p");
         card.textContent = `${course.subject} ${course.number}`;
 
-        if (course.completed == true) {
-            card.classList.toggle("completed")
+        if (course.completed) {
+            card.classList.add("completed")
         }
 
         container.appendChild(card);
