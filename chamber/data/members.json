@@ -1,0 +1,91 @@
+[
+    {
+      "name": "Electrónica Digital del Huila",
+      "address": "Calle 22 #6-13, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8759286", "+57 317 4341364", "+57 317 3027820"],
+      "website": "http://www.paginasamarillas.com.co",
+      "email": "electrodigitalneiva@gmail.com",
+      "image": "electronica_digital_huila.jpg",
+      "membership_level": 2,
+      "description": "Company specialized in the repair of consumer electronics and home appliances.",
+      "business_hours": "Monday to Friday: 8:00 AM - 12:00 PM, 2:30 PM - 6:00 PM; Saturday: 8:00 AM - 1:00 PM; Sunday: Closed"
+    },
+    {
+      "name": "Ingeniería Electrónica del Huila",
+      "address": "Calle 46 #16-24, Office 1001, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8765432", "+57 312 3456789"],
+      "website": "http://www.iehuila.com",
+      "email": "info@iehuila.com",
+      "image": "ingenieria_electronica_huila.jpg",
+      "membership_level": 3,
+      "description": "Engineering company specializing in electronic solutions and industrial automation.",
+      "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+    },
+    {
+      "name": "Hospital Hernando Moncaleano",
+      "address": "Carrera 1 #37-95, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8771234", "+57 320 7654321"],
+      "website": "http://www.huhmp.gov.co",
+      "email": "contacto@huhmp.gov.co",
+      "image": "hospital_universitario.png",
+      "membership_level": 1,
+      "description": "Leading hospital in the region, providing specialized medical services.",
+      "business_hours": "24/7"
+    },
+    {
+      "name": "Universidad Surcolombiana",
+      "address": "Avenida Pastrana Borrero, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8794567"],
+      "website": "http://www.usco.edu.co",
+      "email": "admisiones@usco.edu.co",
+      "image": "universidad_surcolombiana.png",
+      "membership_level": 2,
+      "description": "Public university offering undergraduate and graduate programs in multiple disciplines.",
+      "business_hours": "Monday to Friday: 7:00 AM - 5:00 PM"
+    },
+    {
+      "name": "Alkosto",
+      "address": "Carrera 16 #8-45, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8807890"],
+      "website": "http://www.alkosto.com",
+      "email": "servicio@alkosto.com",
+      "image": "alkosto_neiva.jpg",
+      "membership_level": 1,
+      "description": "Large retail store offering home appliances, electronics, and more.",
+      "business_hours": "Monday to Sunday: 8:00 AM - 9:00 PM"
+    },
+    {
+      "name": "Banco de Bogotá",
+      "address": "Calle 9 #5-23, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8812345"],
+      "website": "http://www.bancodebogota.com",
+      "email": "atencioncliente@bancodebogota.com",
+      "image": "banco_bogota_neiva.jpg",
+      "membership_level": 3,
+      "description": "Financial institution providing banking services to individuals and businesses.",
+      "business_hours": "Monday to Friday: 8:00 AM - 4:00 PM"
+    },
+    {
+      "name": "Las Ceibas",
+      "address": "Carrera 7 #21-68, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8767890"],
+      "website": "http://www.lasceibas.gov.co",
+      "email": "info@lasceibas.gov.co",
+      "image": "las_ceibas_neiva.png",
+      "membership_level": 2,
+      "description": "Public utility company providing water and sewage services in Neiva.",
+      "business_hours": "Monday to Friday: 8:00 AM - 12:00 PM, 2:00 PM - 5:00 PM"
+    },
+    {
+      "name": "Hotel Neiva Plaza",
+      "address": "Calle 7 #4-62, Neiva, Huila, Colombia",
+      "phone_numbers": ["+57 8 8876543"],
+      "website": "http://www.hotelneivaplaza.com",
+      "email": "reservas@hotelneivaplaza.com",
+      "image": "hotel_neiva_plaza.jpg",
+      "membership_level": 3,
+      "description": "Four-star hotel offering comfortable accommodations and event spaces.",
+      "business_hours": "24/7"
+    }
+  ]
+  

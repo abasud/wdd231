@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neiva Chamber of Commerce - Abelardo Bermeo Andrade</title>
+    <meta name="description" content="Driving business growth in Neiva. The Chamber of Commerce of Neiva supports entrepreneurs and companies with advisory services, training, and business opportunities. Connect with the region's economic development!">
+    <meta name="author" content="Abelardo Bermeo Andrade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/chamber-small.css">
+    <link rel="stylesheet" href="./styles/chamber-large.css">
+    <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/companies.js" defer></script>
+    <script src="./scripts/dates.js" defer></script>
+    <link rel="icon" href="./images/favicon.png">
+    <meta property="og:title" content="Neiva Chamber of Commerce">
+    <meta property="og:type" content="webpage" />
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo" width="40" height="40">
+        <span>Neiva Chamber of Commerce</span>
+        <button id="hamButton"></button>
+    </header>
+    <nav id="animate">
+        <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a id="last-link" href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="./images/commerce-hero-img.avif" alt="Commerce Hero Image">
+        <h1>Home</h1>
+        <div class="general-info">
+            <section id="events" class="inner-cell">
+                <h2>Events</h2>
+                <ul>
+                    <li>
+                        <h3>NEIVA Sustainable and Competitive: VISION FOR THE FUTURE</h3>
+                        <p>📅 <strong>Date:</strong> March 18, 2025, 6:00 PM - 8:00 PM</p>
+                        <p>📍 <strong>Location:</strong> Huila Chamber of Commerce, Business Center</p>
+                        <p>📌 <strong>Description:</strong> This event discusses strategies for making Neiva a more sustainable and competitive city in the future.</p>
+                    </li>                
+                    <li>
+                        <h3>ExpoVivienda: Construction, Housing, and Home Fair</h3>
+                        <p>📅 <strong>Date:</strong> May 24 - 26, 2025</p>
+                        <p>📍 <strong>Location:</strong> San Fernando Plaza Business Center Auditorium (La Vorágine fairground)</p>
+                        <p>📌 <strong>Description:</strong> A trade fair showcasing a variety of housing options, construction services, and home-related products.</p>
+                    </li>                
+                    <li>
+                        <h3>Héroes Fest 2025</h3>
+                        <p>📅 <strong>Date:</strong> October 2025 (exact dates to be confirmed)</p>
+                        <p>📍 <strong>Location:</strong> To be determined</p>
+                        <p>📌 <strong>Description:</strong> The country's largest festival for entrepreneurship, innovation, and popular economy, celebrating its 10th anniversary in Neiva.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="inner-cell">
+                <h2>Weather</h2>
+                <div id="weather"></div>
+            </section>
+        </div>
+        <div class="buttons">
+            <button id="memberCards">Member Cards</button>
+            <button id="membersList">Members List</button>
+        </div>
+        <div class="companies"></div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p><strong>Neiva Chamber of Commerce</strong></p>
+            <p>St. 9 12 - 70</p>
+            <p>Neiva, Colombia</p>
+            <p>info@neivacc.com</p>
+            <p>+57 3214005545</p>
+        </div>
+        <div class="social-media">
+            <img src="./images/facebook.png" alt="Facebook">
+            <img src="./images/twitter.png" alt="Twitter">
+            <img src="./images/tiktok.png" alt="TikTok">
+        </div>
+        <div>
+            <p class="footer-js">©<span id="currentYear"></span> | Abelardo Bermeo</p>
+            <p>Colombia</p>
+            <p>WDD 231 Project</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

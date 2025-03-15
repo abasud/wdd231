@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #093A3E;
+    --secondary-color: #3AAFB9;
+    --accent1-color: #64E9EE;
+    --accent2-color: #EDBF85;  
+}
+
+@media screen and (min-width: 780px) {
+
+    header img {
+        width: 100px;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    header span {
+        font-size: 2rem;
+    }
+
+    #hamButton {
+        display: none
+    }
+
+    nav ul {
+        overflow: visible;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu li a {
+        border-top: none;
+    }
+
+    #last-link {
+        border-bottom: none;
+    }
+
+    #menu a:hover {
+        text-decoration: underline;
+    }
+
+    .general-info {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .companies.card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

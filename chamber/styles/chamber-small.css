@@ -1,0 +1,266 @@
+:root {
+    --primary-color: #093A3E;
+    --secondary-color: #3AAFB9;
+    --accent1-color: #64E9EE;
+    --accent2-color: #EDBF85;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50px auto 44px;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+}
+
+header span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+#hamButton::before {
+    content: "\2630";
+}
+
+#hamButton {
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    border: none;
+    background-color: var(--accent1-color);
+    cursor: pointer;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.show {
+    grid-template-rows: 1fr;
+}
+
+#menu {
+    background-color: var(--accent1-color);
+}
+
+#menu li {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    display: block;
+    padding: 0.75rem;
+    border-top: solid 1px var(--primary-color);
+    font-weight: 500;
+}
+
+#last-link {
+    border-bottom: solid 1px var(--primary-color);
+}
+
+@media (max-width: 780px) {
+    #menu a:hover {
+        background-color: var(--secondary-color);
+    }
+
+    .inner-cell {
+        margin-bottom: 2rem;
+    }
+
+    .companies article {
+        margin-top: 1.5rem;
+    }
+}
+
+#hamButton.show::before {
+    content: "x";
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+}
+
+main img {
+    width: 100%;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 1rem;
+}
+
+.general-info {
+    display: block;
+    margin: 0 1rem 1rem;
+    gap: 10px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-bottom: solid 1px var(--primary-color);
+}
+
+#weather h3 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.inner-cell {
+    border: solid 1px var(--primary-color);
+}
+
+.inner-cell li {
+    list-style: none;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+#events ul {
+    padding: 1rem;
+}
+
+#events h3 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-color);
+}
+
+#events li p {
+    margin-top: 0.3rem;
+    font-family: "Lato", sans-serif;
+}
+
+#weather {
+    padding: 1rem;
+    text-align: center;
+}
+
+#weather h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+#weather p {
+    font-family: "Lato", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 3rem 1rem 1rem 1rem;
+}
+
+.buttons button {
+    width: 200px;
+    height: 44px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    background-color: var(--accent1-color);
+    border-radius: 5px;
+    border-color: var(--primary-color);
+}
+
+.buttons button:hover {
+    background-color: var(--secondary-color);
+}
+
+.companies.card {
+    display: block;
+    margin: 2rem 1rem;
+}
+
+.companies.list {
+    display: block;
+    margin: 2rem 0 2rem 1rem;
+}
+
+.companies article {
+    border: solid 1px var(--primary-color);
+}
+
+.companies article img {
+    width: 100%;
+    max-width: 80px;
+    height: 60px;
+}
+
+.companies article h2 {
+    height: 78px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies li {
+    font-family: "Lato", sans-serif;
+    margin: 0 0.5rem 0.5rem 2rem;
+}
+
+.companies.card li {
+    list-style: none;
+}
+
+.companies div {
+    padding: 0.5rem;
+    display: flex;
+}
+
+.companies a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+footer {
+    display: block;
+    padding: 2rem;
+    background: var(--accent1-color);
+    height: auto;
+  }
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+footer p {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0.2rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    width: 70px;
+    height: 70px;
+}
