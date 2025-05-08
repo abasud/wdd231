@@ -1,5 +1,3 @@
-import {courses} from "./course-list.js";
-
 const container = document.querySelector(".courses");
 
 function createCourseCard(courses) {
@@ -9,40 +7,36 @@ function createCourseCard(courses) {
         card.textContent = `${course.subject} ${course.number}`;
 
         if (course.completed) {
-            card.classList.add("completed")
+            card.classList.add("completed");
         }
 
         container.appendChild(card);
-    })
+    });
 }
 
-createCourseCard(courses);
+fetch("../data/course-list.json")
+    .then(response => response.json())
+    .then(courses => {
+        createCourseCard(courses);
 
-const all = document.querySelector(".all");
-all.addEventListener("click", () => {
-    createCourseCard(courses);
+        document.querySelector(".all").addEventListener("click", () => {
+            createCourseCard(courses);
+            const totalCredits = courses.reduce((acc, course) => acc + course.credits, 0);
+            document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
+        });
 
-    const totalCredits = courses.reduce((acc, course) => acc + course.credits, 0);
+        document.querySelector(".cse").addEventListener("click", () => {
+            const filtered = courses.filter(course => course.subject === "CSE");
+            createCourseCard(filtered);
+            const totalCredits = filtered.reduce((acc, course) => acc + course.credits, 0);
+            document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
+        });
 
-    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-})
-
-const cse = document.querySelector(".cse");
-cse.addEventListener("click", () => {
-    const filteredCourses = courses.filter(course => course.subject == "CSE");
-    createCourseCard(filteredCourses);
-
-    const totalCredits = filteredCourses.reduce((acc, course) => acc + course.credits, 0);
-
-    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-})
-
-const wdd = document.querySelector(".wdd");
-wdd.addEventListener("click", () => {
-    const filteredCourses = courses.filter(course => course.subject == "WDD");
-    createCourseCard(filteredCourses);
-
-    const totalCredits = filteredCourses.reduce((acc, course) => acc + course.credits, 0);
-
-    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-})
+        document.querySelector(".wdd").addEventListener("click", () => {
+            const filtered = courses.filter(course => course.subject === "WDD");
+            createCourseCard(filtered);
+            const totalCredits = filtered.reduce((acc, course) => acc + course.credits, 0);
+            document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
+        });
+    })
+    .catch(error => console.error("Error loading courses:", error));
