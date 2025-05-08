@@ -14,7 +14,7 @@ function createCourseCard(courses) {
     });
 }
 
-fetch("data/course-list.json")
+fetch("./data/course-list.json")
     .then(response => response.json())
     .then(courses => {
         createCourseCard(courses);
