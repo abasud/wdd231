@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/larger.css">
+    <script src="./scripts/dates.js" defer></script>
+    <script src="./scripts/courses.js" defer></script>
+    <script src="./scripts/navigation.js" defer></script>
     <link rel="icon" href="./images/abelardo-favicon.ico">
     <meta property="og:title" content="Abelardo Bermeo Andrade">
     <meta property="og:type" content="webpage" />
@@ -68,60 +71,5 @@
         <p class="footer-js">©<span id="currentYear"></span> | Abelardo Bermeo Andrade | Colombia</p>
         <p class="footer-js"><span id="lastModified"></span></p>
     </footer>
-    <script>
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
-        document.getElementById("lastModified").textContent = `Last Update: ${document.lastModified}`;
-      </script>    
-      <script>
-        const container = document.querySelector(".courses");
-    
-        function createCourseCard(courses) {
-            container.innerHTML = "";
-            courses.forEach(course => {
-                let card = document.createElement("p");
-                card.textContent = `${course.subject} ${course.number}`;
-                if (course.completed) {
-                    card.classList.add("completed");
-                }
-                container.appendChild(card);
-            });
-        }
-    
-        fetch("./data/course-list.json")
-            .then(response => response.json())
-            .then(courses => {
-                createCourseCard(courses);
-    
-                document.querySelector(".all").addEventListener("click", () => {
-                    createCourseCard(courses);
-                    const totalCredits = courses.reduce((acc, course) => acc + course.credits, 0);
-                    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-                });
-    
-                document.querySelector(".cse").addEventListener("click", () => {
-                    const filtered = courses.filter(course => course.subject === "CSE");
-                    createCourseCard(filtered);
-                    const totalCredits = filtered.reduce((acc, course) => acc + course.credits, 0);
-                    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-                });
-    
-                document.querySelector(".wdd").addEventListener("click", () => {
-                    const filtered = courses.filter(course => course.subject === "WDD");
-                    createCourseCard(filtered);
-                    const totalCredits = filtered.reduce((acc, course) => acc + course.credits, 0);
-                    document.getElementById("credits").textContent = `Total credits: ${totalCredits}`;
-                });
-            })
-            .catch(error => console.error("Error loading courses:", error));
-      </script>    
-      <script>
-        const nav = document.querySelector(".navigation");
-        const hambutton = document.querySelector("#menu");
-    
-        hambutton.addEventListener("click", function() {
-            nav.classList.toggle("show");
-            hambutton.classList.toggle("show");
-        });
-      </script>
 </body>
 </html>
