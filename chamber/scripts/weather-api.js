@@ -40,7 +40,6 @@ async function apiForecast() {
 }
 
 function displayResults(data) {
-    console.log("hello");
     currentTemp.innerHTML = `${data.main.temp}&deg;C`
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
     weatherIcon.setAttribute('src', iconsrc)
