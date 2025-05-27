@@ -53,6 +53,17 @@
         gap: 10px;
     }
 
+    .forecast-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .spotlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
     footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

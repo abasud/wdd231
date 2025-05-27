@@ -86,6 +86,226 @@
       "membership_level": 3,
       "description": "Four-star hotel offering comfortable accommodations and event spaces.",
       "business_hours": "24/7"
-    }
-  ]
+    },
+    {
+    "name": "Agroindustria del Sur",
+    "address": "Carrera 5 #14-22, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 362 4854424"],
+    "website": "http://www.agroindustriadelsur.com",
+    "email": "contacto@agroindustriadelsur.com",
+    "image": "agroindustria_del_sur.png",
+    "membership_level": 1,
+    "description": "Local company providing high-quality products and services in the region.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Café Andino",
+    "address": "Avenida La Toma #3-45, Garzón, Huila, Colombia",
+    "phone_numbers": ["+57 367 8158190"],
+    "website": "http://www.caféandino.com",
+    "email": "contacto@caféandino.com",
+    "image": "cafe_andino.png",
+    "membership_level": 2,
+    "description": "Trusted business partner for sustainable growth.",
+    "business_hours": "Monday to Friday: 9:00 AM - 4:00 PM; Saturday and Sunday: Closed"
+  },
+  {
+    "name": "Huilense Textil",
+    "address": "Carrera 10 #15-30, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 371 6546583"],
+    "website": "http://www.huilensetextil.com",
+    "email": "contacto@huilensetextil.com",
+    "image": "huilense_textil.jpg",
+    "membership_level": 3,
+    "description": "Specializing in personalized service and community impact.",
+    "business_hours": "Monday to Friday: 7:30 AM - 5:30 PM; Saturday: Closed"
+  },
+  {
+    "name": "Tecnocom Huila",
+    "address": "Calle 12 #7-19, La Plata, Huila, Colombia",
+    "phone_numbers": ["+57 343 7278816"],
+    "website": "http://www.tecnocomhuila.com",
+    "email": "contacto@tecnocomhuila.com",
+    "image": "tecnocom_huila.png",
+    "membership_level": 1,
+    "description": "Industry leader in innovation and customer satisfaction.",
+    "business_hours": "Monday to Sunday: 9:00 AM - 8:00 PM"
+  },
+  {
+    "name": "Servicios Médicos del Sur",
+    "address": "Calle 8 #9-12, Pitalito, Huila, Colombia",
+    "phone_numbers": ["+57 355 5071830"],
+    "website": "http://www.serviciosmedicossur.com",
+    "email": "contacto@serviciosmedicossur.com",
+    "image": "servicios_medicos_del_sur.jpg",
+    "membership_level": 2,
+    "description": "Committed to excellence and regional development.",
+    "business_hours": "24/7"
+  },
+  {
+    "name": "Constructora Rivera",
+    "address": "Calle 12 #7-19, La Plata, Huila, Colombia",
+    "phone_numbers": ["+57 328 7857094"],
+    "website": "http://www.constructorarivera.com",
+    "email": "contacto@constructorarivera.com",
+    "image": "constructora_rivera.png",
+    "membership_level": 3,
+    "description": "Industry leader in innovation and customer satisfaction.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Logística Neivana",
+    "address": "Carrera 5 #14-22, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 359 3543736"],
+    "website": "http://www.logisticaneivana.com",
+    "email": "contacto@logisticaneivana.com",
+    "image": "logistica_neivana.png",
+    "membership_level": 1,
+    "description": "Specializing in personalized service and community impact.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Educación Integral del Huila",
+    "address": "Calle 12 #7-19, La Plata, Huila, Colombia",
+    "phone_numbers": ["+57 355 2549028"],
+    "website": "http://www.educacionhuila.com",
+    "email": "contacto@educacionhuila.com",
+    "image": "educacion_integral_del_huila.jpg",
+    "membership_level": 2,
+    "description": "Committed to excellence and regional development.",
+    "business_hours": "Monday to Sunday: 9:00 AM - 8:00 PM"
+  },
+  {
+    "name": "Maderas y Diseños",
+    "address": "Carrera 10 #15-30, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 375 6612200"],
+    "website": "http://www.maderasydecor.com",
+    "email": "contacto@maderasydecor.com",
+    "image": "maderas_y_diseños.jpg",
+    "membership_level": 3,
+    "description": "Trusted business partner for sustainable growth.",
+    "business_hours": "Monday to Friday: 7:30 AM - 5:30 PM; Saturday: Closed"
+  },
+  {
+    "name": "Veterinaria San Roque",
+    "address": "Calle 8 #9-12, Pitalito, Huila, Colombia",
+    "phone_numbers": ["+57 385 6388134"],
+    "website": "http://www.veterinariasanroque.com",
+    "email": "contacto@veterinariasanroque.com",
+    "image": "veterinaria_san_roque.png",
+    "membership_level": 1,
+    "description": "Local company providing high-quality products and services in the region.",
+    "business_hours": "24/7"
+  },
+  {
+    "name": "Consultores Jurídicos del Huila",
+    "address": "Avenida La Toma #3-45, Garzón, Huila, Colombia",
+    "phone_numbers": ["+57 362 5291764"],
+    "website": "http://www.consultoreshuila.com",
+    "email": "contacto@consultoreshuila.com",
+    "image": "consultores_juridicos_del_huila.jpg",
+    "membership_level": 2,
+    "description": "Specializing in personalized service and community impact.",
+    "business_hours": "Monday to Friday: 9:00 AM - 4:00 PM; Saturday and Sunday: Closed"
+  },
+  {
+    "name": "Frutas Tropicales Huila",
+    "address": "Carrera 10 #15-30, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 390 2924711"],
+    "website": "http://www.frutashuila.com",
+    "email": "contacto@frutashuila.com",
+    "image": "frutas_tropicales_huila.jpg",
+    "membership_level": 3,
+    "description": "Industry leader in innovation and customer satisfaction.",
+    "business_hours": "Monday to Sunday: 9:00 AM - 8:00 PM"
+  },
+  {
+    "name": "Farmacia Vida Plena",
+    "address": "Calle 8 #9-12, Pitalito, Huila, Colombia",
+    "phone_numbers": ["+57 313 5073994"],
+    "website": "http://www.vidaplenafarmacia.com",
+    "email": "contacto@vidaplenafarmacia.com",
+    "image": "farmacia_vida_plena.png",
+    "membership_level": 1,
+    "description": "Local company providing high-quality products and services in the region.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Turismo Verde",
+    "address": "Calle 12 #7-19, La Plata, Huila, Colombia",
+    "phone_numbers": ["+57 378 2561844"],
+    "website": "http://www.turismoverde.com",
+    "email": "contacto@turismoverde.com",
+    "image": "turismo_verde.jpg",
+    "membership_level": 2,
+    "description": "Committed to excellence and regional development.",
+    "business_hours": "Monday to Friday: 9:00 AM - 4:00 PM; Saturday and Sunday: Closed"
+  },
+  {
+    "name": "Innovación Huilense",
+    "address": "Carrera 10 #15-30, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 337 4558012"],
+    "website": "http://www.innovacionhuilense.com",
+    "email": "contacto@innovacionhuilense.com",
+    "image": "innovacion_huilense.jpg",
+    "membership_level": 3,
+    "description": "Trusted business partner for sustainable growth.",
+    "business_hours": "Monday to Friday: 7:30 AM - 5:30 PM; Saturday: Closed"
+  },
+  {
+    "name": "Transporte Express Sur",
+    "address": "Avenida La Toma #3-45, Garzón, Huila, Colombia",
+    "phone_numbers": ["+57 334 7879036"],
+    "website": "http://www.transporteexpresssur.com",
+    "email": "contacto@transporteexpresssur.com",
+    "image": "transporte_express_sur.png",
+    "membership_level": 1,
+    "description": "Specializing in personalized service and community impact.",
+    "business_hours": "Monday to Sunday: 9:00 AM - 8:00 PM"
+  },
+  {
+    "name": "Grupo Empresarial Palermo",
+    "address": "Calle 8 #9-12, Pitalito, Huila, Colombia",
+    "phone_numbers": ["+57 339 7738724"],
+    "website": "http://www.grupopalermo.com",
+    "email": "contacto@grupopalermo.com",
+    "image": "grupo_empresarial_palermo.png",
+    "membership_level": 2,
+    "description": "Committed to excellence and regional development.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Energías Limpias del Huila",
+    "address": "Carrera 5 #14-22, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 336 8813790"],
+    "website": "http://www.energiaslimpias.com",
+    "email": "contacto@energiaslimpias.com",
+    "image": "energias_limpias_del_huila.jpg",
+    "membership_level": 3,
+    "description": "Industry leader in innovation and customer satisfaction.",
+    "business_hours": "Monday to Friday: 7:30 AM - 5:30 PM; Saturday: Closed"
+  },
+  {
+    "name": "Helados La Montaña",
+    "address": "Carrera 10 #15-30, Neiva, Huila, Colombia",
+    "phone_numbers": ["+57 315 2273440"],
+    "website": "http://www.heladoslamontaña.com",
+    "email": "contacto@heladoslamontaña.com",
+    "image": "helados_la_montaña.png",
+    "membership_level": 1,
+    "description": "Local company providing high-quality products and services in the region.",
+    "business_hours": "Monday to Friday: 8:00 AM - 6:00 PM; Saturday: 8:00 AM - 12:00 PM; Sunday: Closed"
+  },
+  {
+    "name": "Soluciones TIC Surcolombianas",
+    "address": "Calle 12 #7-19, La Plata, Huila, Colombia",
+    "phone_numbers": ["+57 338 2878880"],
+    "website": "http://www.solucionestic.com",
+    "email": "contacto@solucionestic.com",
+    "image": "soluciones_tic_surcolombianas.png",
+    "membership_level": 2,
+    "description": "Trusted business partner for sustainable growth.",
+    "business_hours": "Monday to Friday: 9:00 AM - 4:00 PM; Saturday and Sunday: Closed"
+  }
+]
   

@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./styles/chamber-small.css">
     <link rel="stylesheet" href="./styles/chamber-large.css">
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script type="module" src="scripts/members.js"></script>
+    <script src="scripts/weather-api.js" defer></script>
+    <script type="module" src="scripts/spotlights.js"></script>
     <script src="scripts/dates.js" defer></script>
     <link rel="icon" href="./images/favicon.ico">
     <meta property="og:title" content="Neiva Chamber of Commerce">
@@ -39,12 +39,48 @@
         </ul>
     </nav>
     <main>
-        <h1>Directory</h1>
-        <div class="buttons">
-            <button id="memberCards">Member Cards</button>
-            <button id="membersList">Members List</button>
+        <img src="./images/commerce-hero-img.avif" alt="Commerce Hero Image">
+        <h1>Home</h1>
+        <a href="#" id="home-cta">Join Our Community!</a>
+        <div class="general-info">
+            <section id="events" class="inner-cell">
+                <h2>Current Events</h2>
+                <ul>
+                    <li>
+                        <h3>NEIVA Sustainable and Competitive: VISION FOR THE FUTURE</h3>
+                        <p>📅 <strong>Date:</strong> June 18, 2025, 6:00 PM - 8:00 PM</p>
+                        <p>📍 <strong>Location:</strong> Huila Chamber of Commerce, Business Center</p>
+                        <p>📌 <strong>Description:</strong> This event discusses strategies for making Neiva a more sustainable and competitive city in the future.</p>
+                    </li>                
+                    <li>
+                        <h3>ExpoVivienda: Construction, Housing, and Home Fair</h3>
+                        <p>📅 <strong>Date:</strong> August 24 - 26, 2025</p>
+                        <p>📍 <strong>Location:</strong> San Fernando Plaza Business Center Auditorium (La Vorágine fairground)</p>
+                        <p>📌 <strong>Description:</strong> A trade fair showcasing a variety of housing options, construction services, and home-related products.</p>
+                    </li>                
+                    <li>
+                        <h3>Héroes Fest 2025</h3>
+                        <p>📅 <strong>Date:</strong> October 2025 (exact dates to be confirmed)</p>
+                        <p>📍 <strong>Location:</strong> To be determined</p>
+                        <p>📌 <strong>Description:</strong> The country's largest festival for entrepreneurship, innovation, and popular economy, celebrating its 10th anniversary in Neiva.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="inner-cell">
+                <h2>Weather</h2>
+                <div id="weather">
+                    <p>The current temperature in Neiva, Huila is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+                    <div id="forecast" class="forecast-container"></div>
+                </div>
+            </section>
         </div>
-        <div class="companies"></div>
+        <h1 id="spotlights-h1">Spotlights</h1>
+        <div class="spotlights">
+        </div>
     </main>
     <footer>
         <div class="contact">
