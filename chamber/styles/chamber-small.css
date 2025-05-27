@@ -284,7 +284,7 @@ h2 {
 
 .companies a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .spotlights {
@@ -322,7 +322,7 @@ h2 {
 
 .spotlights a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 footer {
