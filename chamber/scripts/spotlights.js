@@ -29,6 +29,7 @@ function displaySpotlightsCard(companies) {
         let companyAddress = document.createElement("li");
         let companyPhone = document.createElement("li");
         let companyUrl = document.createElement("li");
+        companyUrl.className = "spotlight-url";
         let companyMembership = document.createElement("li");
 
         let level;
@@ -41,6 +42,7 @@ function displaySpotlightsCard(companies) {
 
         companyName.textContent = company.name;
         companyImage.src = `../chamber/images/${company.image}`;
+        companyImage.alt = "Company image";
         companyAddress.innerHTML = `<strong>ADDRESS:</strong> ${company.address}`;
         companyPhone.innerHTML = `<strong>PHONE(S):</strong> ${company.phone_numbers[0]}`;
         companyUrl.innerHTML = `<strong>WEBSITE:</strong> <a href="${company.website}" target="_blank">${company.website}</a>`;

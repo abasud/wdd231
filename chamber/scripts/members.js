@@ -45,11 +45,14 @@ function displayCompaniesCard(companies) {
         let companyImage = document.createElement("img");
         let companyUl = document.createElement("ul");
         let companyEmail = document.createElement("li");
+        companyEmail.className = "company-email";
         let companyPhone = document.createElement("li");
         let companyUrl = document.createElement("li");
+        companyUrl.className = "company-url";
 
         companyName.textContent = company.name;
         companyImage.src = `../chamber/images/${company.image}`;
+        companyImage.alt = "Company image";
         companyEmail.innerHTML = `<strong>EMAIL:</strong> ${company.email}`;
         companyPhone.innerHTML = `<strong>PHONE(S):</strong> ${company.phone_numbers[0]}`;
         companyUrl.innerHTML = `<strong>WEBSITE:</strong> <a href="${company.website}" target="_blank">${company.website}</a>`;

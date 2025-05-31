@@ -101,6 +101,28 @@ nav.show {
     font-size: 2.3rem;
 }
 
+#hamButton-name {
+    font-size: 0.1rem;
+    color: var(--accent1-color);
+}
+
+a:active {
+    color: var(--accent2-color);
+}
+
+a:visited {
+    color: var(--secondary-color);
+}
+
+.wayfinding {
+    margin-left: 0.2rem;
+    color: var(--primary-color);
+}
+
+.wayfinding a {
+    text-decoration: none;
+}
+
 main img {
     width: 100%;
     max-width: 800px;
@@ -118,8 +140,9 @@ h1 {
 #home-cta {
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
     font-family: "Lato", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     padding-bottom: 1.5rem;
     color: var(--primary-color);
@@ -219,6 +242,27 @@ h2 {
     margin-top: 3rem;
 }
 
+.company-email {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.company-url {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.spotlight-url {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    display: inline-block;
+    max-width: 100%;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -257,7 +301,7 @@ h2 {
 .companies article img {
     width: 100%;
     max-width: 80px;
-    height: 60px;
+    height: 80px;
 }
 
 .companies article h2 {
@@ -294,12 +338,13 @@ h2 {
 
 .spotlights article {
     border: solid 1px var(--primary-color);
+    margin-top: 1rem;
 }
 
 .spotlights article img {
     width: 100%;
     max-width: 80px;
-    height: 60px;
+    height: 80px;
 }
 
 .spotlights article h2 {
