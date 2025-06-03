@@ -93,6 +93,18 @@ nav.show {
     .companies article {
         margin-top: 1.5rem;
     }
+
+    .join-form, .join-cards {
+        margin: 0.5rem;
+    }
+
+    .join-cards {
+        margin-top: 2rem;
+    }
+
+    dialog {
+        width: 90%;
+    }
 }
 
 #hamButton.show::before {
@@ -368,6 +380,140 @@ h2 {
 .spotlights a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.join-elements {
+    display: block;
+    gap: 2rem;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.join-form, .join-cards {
+    border: solid 1px var(--primary-color);
+}
+
+form {
+    margin: 1rem;
+}
+
+.form-element {
+    display: block;
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 1rem;
+}
+
+.field44px {
+    height: 44px;
+    padding: 0.5rem;
+}
+
+.field {
+    height: 100px;
+    padding: 0.5rem;
+}
+
+#form-radio label {
+    display: block;
+    margin: 0.3rem auto;
+}
+
+.form-button {
+    background-color: var(--accent2-color);
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.cards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.membership-card {
+    width: 100%;
+    height: 100px;
+    border: solid 1px var(--primary-color);
+    margin: 15% auto 0 auto;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 25px;
+    background-color: var(--accent1-color);
+    border-radius: 5px 20px;
+    transition: all 1s ease;
+}
+
+.membership-card-open {
+    margin: 1rem auto 0 auto;
+    opacity: 1;
+}
+
+.membership-card p {
+    margin-bottom: 0.5rem;
+}
+
+.card-button {
+    cursor: pointer;
+}
+
+dialog {
+    margin: auto;
+}
+
+dialog h2 {
+    border: none;
+}
+
+.modal-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+dialog button {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    margin: 0.5rem;
+    background-color: var(--accent2-color);
+}
+
+dialog p {
+    margin: 1rem 1rem 0 1rem;
+}
+
+dialog ul {
+    margin: 0 1rem 1rem 2rem;
+}
+
+dialog::backdrop {
+    background-color: var(--secondary-color);
+    opacity: 0.4;
+}
+
+.thankyou {
+    max-width: 500px;
+    margin: auto auto 2rem auto;
+    font-family: "Lato", sans-serif;
+    border: solid 1px var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.thankyou h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.thankyou p {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
 }
 
 footer {

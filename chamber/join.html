@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="styles/chamber-small.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/navigation.js" defer></script>
-    <script type="module" src="scripts/members.js"></script>
+    <script src="scripts/timestamp.js" defer></script>
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/membershipCards.js" type="module"></script>
+    <script src="scripts/animations.js" defer></script>
     <link rel="icon" href="./images/favicon.ico">
     <meta property="og:title" content="Neiva Chamber of Commerce">
     <meta property="og:description" content="Discover organizations in your area. Build strong partnerships and expand your network. Access tools, resources, and events to boost your professional growth.">
@@ -38,13 +40,37 @@
         </ul>
     </nav>
     <main>
-        <p class="wayfinding"><a href="index.html" class="wayfinding">neiva chamber of commerce</a> › directory</p>
-        <h1>Directory</h1>
-        <div class="buttons">
-            <button id="memberCards">Member Cards</button>
-            <button id="membersList">Members List</button>
-        </div>
-        <div class="companies"></div>
+        <p class="wayfinding"><a href="index.html" class="wayfinding">neiva chamber of commerce</a> › join</p>
+        <h1>Join</h1>
+        <div class="join-elements">
+            <div class="join-form">
+                <h2>Application Form</h2>
+                <form method="get" action="thankyou.html">
+                    <label class="form-element label">First Name<input class="form-element field44px" type="text" name="first-name" title="Applicant's First Name" required autocomplete="given-name"></label>
+                    <label class="form-element label">Last Name<input class="form-element field44px" type="text" name="last-name" title="Applicant's Last Name" required autocomplete="family-name"></label>
+                    <label class="form-element label">Organizational Title<input class="form-element field44px" type="text" name="org-title" title="Applicant's Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"></label>
+                    <label class="form-element label">Email Address<input class="form-element field44px" type="email" name="email" title="Applicant's Email Address" required autocomplete="email" placeholder="example@domain.com"></label>
+                    <label class="form-element label">Mobile Phone<input class="form-element field44px" type="tel" name="mobile" title="Applicant's Mobile Phone Number" required autocomplete="tel"></label>
+                    <label class="form-element label">Organization Name<input class="form-element field44px" type="text" name="organization" title="Business or Organization Name" required autocomplete="organization"></label>
+                    <fieldset class="form-element label">
+                        <legend>Membership Level</legend>
+                        <div id="form-radio">
+                            <label><input type="radio" name="membership" value="np" required> NP Membership (No Fee)</label>
+                            <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                            <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                            <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                        </div>
+                    </fieldset>
+                    <label class="form-element label">Organization Description<textarea class="form-element field" name="org-description" title="Business or Organization Description"></textarea></label>
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <input type="submit" value="I Want To Join!" class="form-button form-element label  field44px">
+                </form>
+            </div>
+            <div class="join-cards">
+                <h2>Membership Levels</h2>
+                <div class="cards"></div>
+            </div>
+        </div>        
     </main>
     <footer>
         <div class="contact">

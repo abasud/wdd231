@@ -72,6 +72,15 @@
         gap: 10px;
     }
 
+    .join-elements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    dialog {
+        max-width: 500px;
+    }
+
     footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
