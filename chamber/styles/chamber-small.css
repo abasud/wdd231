@@ -418,7 +418,13 @@ form {
 
 #form-radio label {
     display: block;
-    margin: 0.3rem auto;
+    margin: 0.4rem auto;
+}
+
+#form-radio input[type="radio"] {
+    margin-right: 0.3rem;
+    width: 15px;
+    height: 15px;
 }
 
 .form-button {
