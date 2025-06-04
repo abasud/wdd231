@@ -118,21 +118,9 @@ nav.show {
     color: var(--accent1-color);
 }
 
-a:active {
-    color: var(--accent2-color);
-}
-
-a:visited {
-    color: var(--secondary-color);
-}
-
 .wayfinding {
     margin-left: 0.2rem;
     color: var(--primary-color);
-}
-
-.wayfinding a {
-    text-decoration: none;
 }
 
 main img {
