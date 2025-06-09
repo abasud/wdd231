@@ -22,6 +22,7 @@ function displayItemCards(items) {
 
         itemImg.loading = "lazy";
         itemImg.alt = "Place image";
+
         itemImg.addEventListener("load", () => {
         itemImg.classList.add("loaded");
         });
