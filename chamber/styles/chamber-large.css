@@ -88,7 +88,7 @@
 
     .allplaces div {
         width: 350px;
-        height: 233;
+        height: 233px;
         grid-template-areas: 
         "name"
         "photo"

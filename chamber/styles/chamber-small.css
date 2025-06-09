@@ -598,7 +598,8 @@ footer {
     display: block;
     padding: 2rem;
     background: var(--accent1-color);
-    height: auto;
+    max-width: 800px;
+    height: 400px;
   }
 
 footer div {
