@@ -11,10 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-medium.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
     <script src="scripts/navigation.js" defer></script>
-    <script type="module" src="scripts/members.js"></script>
     <script src="scripts/dates.js" defer></script>
+    <script type="module" src="scripts/item_card.js"></script>
+    <script src="scripts/visit-time.js" defer></script>
     <link rel="icon" href="./images/favicon.ico">
     <meta property="og:title" content="Neiva Chamber of Commerce">
     <meta property="og:description" content="Discover organizations in your area. Build strong partnerships and expand your network. Access tools, resources, and events to boost your professional growth.">
@@ -23,7 +25,7 @@
     <meta property="og:locale" content="en-US">
     <meta property="og:url" content="https://abasud.github.io/wdd231/chamber/index.html">
 </head>
-<body>
+<body id="visit">
     <header>
         <img src="./images/logo.png" alt="Logo" width="40" height="40">
         <span>Neiva Chamber of Commerce</span>
@@ -38,13 +40,12 @@
         </ul>
     </nav>
     <main>
-        <p class="wayfinding"><a href="index.html" class="wayfinding">neiva chamber of commerce</a> › directory</p>
-        <h1>Directory</h1>
-        <div class="buttons">
-            <button id="memberCards">Member Cards</button>
-            <button id="membersList">Members List</button>
+        <p class="wayfinding"><a href="index.html" class="wayfinding">neiva chamber of commerce</a> › discover</p>
+        <div id = "visitor-message">
+            <h2></h2>
+            <button id="message-button">X</button>
         </div>
-        <div class="companies"></div>
+        <div class="allplaces"></div>
     </main>
     <footer>
         <div class="contact">

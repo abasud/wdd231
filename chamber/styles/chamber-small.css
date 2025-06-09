@@ -81,7 +81,7 @@ nav.show {
     border-bottom: solid 1px var(--primary-color);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1025px) {
     #menu a:hover {
         background-color: var(--secondary-color);
     }
@@ -508,6 +508,93 @@ dialog::backdrop {
 .thankyou p {
     margin-top: 0.5rem;
     margin-left: 1rem;
+}
+
+.allplaces {
+    font-family: "Lato", sans-serif;
+}
+
+.allplaces div {
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "location"
+    "button";
+}
+
+.allplaces h2 {
+    grid-area: name;
+}
+
+.allplaces img {
+    grid-area: photo;
+}
+
+.allplaces address {
+    margin: 1rem;
+    grid-area: location;
+}
+
+.allplaces p {
+    margin: 1rem;
+    grid-area: description;
+}
+
+.allplaces button {
+    margin: 1rem auto;
+    width: 100px;
+    height: 44px;
+    display: block;
+    margin: 0 auto 1rem auto;
+    background-color: var(--accent2-color);
+    border-radius: 8px;
+    cursor: pointer;
+    grid-area: button;
+}
+
+.allplaces button:hover {
+    background-color: var(--accent1-color);
+}
+
+#visitor-message {
+    display: none;
+}
+
+#visitor-message.visit-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin-top: 0.5rem;
+}
+
+#visitor-message.visit-message h2 {
+    border: none;
+}
+
+#visitor-message.visit-message button {
+    margin: 1rem;
+    width: 44px;
+    height: 44px;
+    background-color: var(--accent2-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.allplaces img {
+  opacity: 0;
+  transition: opacity 3s ease-in;
+}
+
+.allplaces img.loaded {
+  opacity: 1;
 }
 
 footer {

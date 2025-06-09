@@ -1,0 +1,24 @@
+@media only screen and (min-width: 640px) {
+
+    .allplaces div {
+        grid-template-areas: 
+        "photo name"
+        "photo description"
+        "photo location"
+        "photo button";
+    }
+
+    .allplaces img {
+        width: 300px;
+        transition: width 0.3s ease, opacity 3s ease-in;
+    }
+
+    .allplaces img.loaded {
+    opacity: 1;
+    }
+
+    .allplaces img:hover {
+        width: 350px;
+    }
+
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Tatacoa Desert",
+    "address": "Villavieja, Huila, Colombia",
+    "description": "A vast semi-arid zone ideal for hiking, astronomy observation, and paleontology exploration.",
+    "photo": "tatacoa_desert.webp"
+  },
+  {
+    "name": "San Agustín Archaeological Park",
+    "address": "San Agustín and Isnos, Huila, Colombia",
+    "description": "A UNESCO World Heritage Site with the largest collection of megalithic sculptures in South America.",
+    "photo": "san_agustin.webp"
+  },
+  {
+    "name": "Rivera Hot Springs",
+    "address": "Rivera, Huila, Colombia",
+    "description": "Natural hot springs with medicinal properties, located in a scenic mountain setting.",
+    "photo": "termales_rivera.webp"
+  },
+  {
+    "name": "Nevado del Huila",
+    "address": "Nevado del Huila National Park, Huila, Colombia",
+    "description": "Snow-capped volcano featuring high-altitude lakes, rivers, and rich Andean biodiversity.",
+    "photo" : "nevado_huila.webp"
+  },
+  {
+    "name": "La Mano del Gigante Viewpoint",
+    "address": "Gigante, Huila, Colombia",
+    "description": "Panoramic viewpoint over the Magdalena Valley, featuring a giant hand sculpture.",
+    "photo": "mano_gigante.webp"
+  },
+  {
+    "name": "Betania Reservoir",
+    "address": "Road to Hobo, near Neiva, Huila, Colombia",
+    "description": "Hydroelectric reservoir popular for boating, fishing, and scenic natural views.",
+    "photo": "betania_reservoir.webp"
+  },
+  {
+    "name": "José Eustasio Rivera Cultural and Convention Center",
+    "address": "Cra. 5 #21-81, Neiva, Huila, Colombia",
+    "description": "Multifunctional venue with an archaeological museum, contemporary art gallery, and public library.",
+    "photo": "convention_center.webp"
+  },
+  {
+    "name": "Regional Archaeological Museum of Neiva",
+    "address": "Inside José Eustasio Rivera Cultural Center, Neiva, Huila, Colombia",
+    "description": "Museum showcasing the pre-Hispanic heritage of Huila with over 300 ancient artifacts.",
+    "photo": "archeological_museum.webp"
+  }
+]

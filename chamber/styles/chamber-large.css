@@ -5,7 +5,7 @@
     --accent2-color: #EDBF85;  
 }
 
-@media screen and (min-width: 780px) {
+@media only screen and (min-width: 1025px) {
 
     header img {
         width: 100px;
@@ -79,6 +79,29 @@
 
     dialog {
         max-width: 500px;
+    }
+
+    .allplaces {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .allplaces div {
+        grid-template-areas: 
+        "name"
+        "photo"
+        "description"
+        "location"
+        "button";
+    }
+
+    .allplaces img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .allplaces img:hover {
+        width: 300px;
     }
 
     footer {
