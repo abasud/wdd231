@@ -1,6 +1,7 @@
 @media only screen and (min-width: 640px) {
 
     .allplaces div {
+        max-width: 600px;
         grid-template-areas: 
         "photo name"
         "photo description"
@@ -10,7 +11,8 @@
 
     .allplaces img {
         width: 300px;
-        transition: width 0.3s ease, opacity 3s ease-in;
+        height: 200px;
+        transition: filter 0.3s ease, opacity 3s ease-in;
     }
 
     .allplaces img.loaded {
@@ -18,7 +20,12 @@
     }
 
     .allplaces img:hover {
-        width: 350px;
+        filter: blur(2px);
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }

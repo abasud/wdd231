@@ -87,6 +87,8 @@
     }
 
     .allplaces div {
+        width: 350px;
+        height: 233;
         grid-template-areas: 
         "name"
         "photo"
@@ -96,16 +98,7 @@
     }
 
     .allplaces img {
-        width: 100%;
-        margin: auto;
-    }
-
-    .allplaces img:hover {
-        width: 300px;
-    }
-
-    footer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        width: 350px;
+        height: auto;
     }
 }
