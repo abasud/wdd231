@@ -20,6 +20,8 @@ function displayItemCards(items) {
         let itemDescription = document.createElement("p");
         let itemButton = document.createElement("button");
 
+        itemTitle.textContent = item.name;
+
         itemImg.loading = "lazy";
         itemImg.alt = "Place image";
 

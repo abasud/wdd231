@@ -529,6 +529,7 @@ dialog::backdrop {
 
 .allplaces h2 {
     grid-area: name;
+    text-align: center;
 }
 
 .allplaces img {
