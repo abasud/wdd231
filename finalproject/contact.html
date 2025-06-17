@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTech Digital Solutions</title>
+    <meta name="description" content="HealthTech Digital Solutions empowers hospitals and clinics with cutting-edge digital transformation services. Discover how advanced technology improves patient care, automates workflows, and boosts healthcare efficiency.">
+    <meta name="author" content="Abelardo Bermeo Andrade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/project-small.css">
+    <link rel="stylesheet" href="./styles/project-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/select-countries.js"></script>
+    <script src="scripts/dates.js" defer></script>
+    <link rel="icon" href="./images/favicon.ico">
+    <meta property="og:title" content="HealthTech Digital Solutions">
+    <meta property="og:description" content="Transforming healthcare through innovation — HealthTech Digital Solutions helps medical institutions enhance patient care and streamline operations with advanced digital technologies and expert solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/ht-logo.webp">
+    <meta property="og:locale" content="en-US">
+    <meta property="og:url" content="https://abasud.github.io/wdd231/finalproject/index.html">
+</head>
+<body>
+    <header>
+        <img src="./images/ht-logo.webp" alt="logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>            
+        </nav>
+        <a id="menu" href="#"></a>
+    </header>
+    <main>
+        <p id="wayfinding-contact"><a href="index.html">healthtech digital solutions</a> › contact us</p>
+        <h1>Contact Us</h1>
+        <section class="form">
+            <form class="services-form" method="get" action="thankyou.html">
+                <h2>Schedule Assessment</h2>
+                <div class="form-item">
+                    <label>Full name* <input type="text" name="full-name" required></label>
+                </div>
+                <div class="form-item">
+                    <label for="country">Country*</label>
+                    <input list="countries" id="country" name="country" placeholder="Select a country" required>
+                    <datalist id="countries"></datalist>
+                </div>
+                <div class="form-item">
+                    <label for="date-consultation">Date*
+                        <input type="date" id="date-consultation" name="date-assessment" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label for="time-consultation">Time*
+                        <input type="time" id="time-consultation" name="time-assessment" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>Email* <input type="email" name="email" required></label>
+                </div>
+                <div class="form-item">Service (Select all that apply)
+                    <div id="checkbox">
+                        <label><input type="checkbox" id="telehealth" name="topics" value="Telehealth"><span>Telehealth</span></label>
+                        <label><input type="checkbox" id="data-science" name="topics" value="Data Sciene & AI"><span>Data Sciene & AI</span></label>
+                        <label><input type="checkbox" id="interoperability" name="topics" value="Interoperability"><span>Interoperability</span></label>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label>Add Details (Optional)<textarea name="assessment-details" id="paragraph"></textarea></label> 
+                </div>          
+                <input type="submit" value="Schedule My Assessment!" class="button">
+            </form>
+        </section>
+        <div class="contact">
+            <div class="inner-grid">
+                <div class="inner-cell address">
+                    <h2>Address</h2>
+                    <p>St. 4 456 NY</p>
+                </div>
+                <div class="inner-cell phone">
+                    <h2>Phone</h2>
+                    <p>57 235 698</p>
+                </div>
+                <div class="inner-cell email">
+                    <h2>Email</h2>
+                    <p>contact@htdigitalsolutions.com</p>
+                </div>
+                <div class="inner-cell map">
+                    <iframe class="responsive-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03606971225!2d-74.3093296070907!3d40.697539963305694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1733533335058!5m2!1ses!2sco" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentYear"></span> | HealthTech Digital Solutions | Abelardo Bermeo Andrade</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/doctorbermeo">
+                <img src="./images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/doctor-bermeo">
+                <img src="./images/linkedin.webp" alt="TikTok">
+            </a>
+            <a href="http://wa.me/573107342679">
+                <img src="./images/whatsapp.webp" alt="WhatsApp">
+            </a>
+            <a href="https://www.tiktok.com/@doctorbermeo">
+                <img src="./images/tiktok.webp" alt="TikTok">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

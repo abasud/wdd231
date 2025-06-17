@@ -87,8 +87,15 @@
     }
 
     .allplaces div {
-        width: 350px;
-        height: 233px;
+        max-width: 350px;
+        height: auto;
+        margin: 1rem auto;
+        border: 1px solid var(--primary-color);
+        border-radius: 8px;
+        overflow: hidden;
+
+        display: grid;
+        justify-content: center;
         grid-template-areas: 
         "name"
         "photo"

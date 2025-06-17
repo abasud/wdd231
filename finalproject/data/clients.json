@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Mayo Clinic",
+    "address": "200 1st St SW, Rochester, MN 55905, USA",
+    "phone": "+1 507-284-2511",
+    "email": "info@mayoclinic.org"
+  },
+  {
+    "name": "Charité – Universitätsmedizin Berlin",
+    "address": "Charitéplatz 1, 10117 Berlin, Germany",
+    "phone": "+49 30 45050",
+    "email": "kontakt@charite.de"
+  },
+  {
+    "name": "Hospital Israelita Albert Einstein",
+    "address": "Av. Albert Einstein, 627 - Morumbi, São Paulo - SP, 05652-900, Brazil",
+    "phone": "+55 11 2151-1233",
+    "email": "atendimento@einstein.br"
+  },
+  {
+    "name": "St. Thomas' Hospital",
+    "address": "Westminster Bridge Rd, London SE1 7EH, UK",
+    "phone": "+44 20 7188 7188",
+    "email": "info@gstt.nhs.uk"
+  },
+  {
+    "name": "Singapore General Hospital",
+    "address": "Outram Road, Singapore 169608",
+    "phone": "+65 6222 3322",
+    "email": "enquiry@sgh.com.sg"
+  },
+  {
+    "name": "Apollo Hospitals",
+    "address": "21 Greams Lane, Off Greams Road, Chennai - 600006, India",
+    "phone": "+91 44 2829 3333",
+    "email": "info@apollohospitals.com"
+  },
+  {
+    "name": "The Alfred Hospital",
+    "address": "55 Commercial Rd, Melbourne VIC 3004, Australia",
+    "phone": "+61 3 9076 2000",
+    "email": "contact@alfred.org.au"
+  },
+  {
+    "name": "Toronto General Hospital",
+    "address": "200 Elizabeth St, Toronto, ON M5G 2C4, Canada",
+    "phone": "+1 416-340-4800",
+    "email": "info@uhn.ca"
+  },
+  {
+    "name": "Hospital Universitario La Paz",
+    "address": "Paseo de la Castellana, 261, 28046 Madrid, Spain",
+    "phone": "+34 917 27 70 00",
+    "email": "info@lapaz.hospital.es"
+  },
+  {
+    "name": "Peking Union Medical College Hospital",
+    "address": "1 Shuaifuyuan Hutong, Dongcheng, Beijing, China",
+    "phone": "+86 10 6915 6114",
+    "email": "contact@pumch.cn"
+  },
+  {
+    "name": "Groote Schuur Hospital",
+    "address": "Main Rd, Observatory, Cape Town, 7925, South Africa",
+    "phone": "+27 21 404 9111",
+    "email": "groote.schuur@westerncape.gov.za"
+  },
+  {
+    "name": "King Faisal Specialist Hospital",
+    "address": "Al Maather St, Riyadh 12713, Saudi Arabia",
+    "phone": "+966 11 464 7272",
+    "email": "kfshemail@kfshrc.edu.sa"
+  },
+  {
+    "name": "Hadassah Medical Center",
+    "address": "Ein Kerem, Jerusalem, Israel",
+    "phone": "+972 2 677 7111",
+    "email": "info@hadassah.org.il"
+  },
+  {
+    "name": "University Hospital Zurich",
+    "address": "Rämistrasse 100, 8091 Zürich, Switzerland",
+    "phone": "+41 44 255 11 11",
+    "email": "info@usz.ch"
+  },
+  {
+    "name": "Hôpital Européen Georges-Pompidou",
+    "address": "20 Rue Leblanc, 75015 Paris, France",
+    "phone": "+33 1 56 09 20 00",
+    "email": "contact@hopital-pompidou.fr"
+  },
+  {
+    "name": "Tokyo Medical University Hospital",
+    "address": "6 Chome-7-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan",
+    "phone": "+81 3-3342-6111",
+    "email": "info@tokyo-med.ac.jp"
+  }
+]
