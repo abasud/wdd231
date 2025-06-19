@@ -122,25 +122,4 @@
     .thankyou {
         max-width: 350px;
     }
-
-    #wayfinding-thankyou {
-    margin: 0 0.2rem;
-    color: var(--primary-color);
-    }
-
-    #wayfinding-index {
-        margin-top: -816px;
-    }
-
-    #wayfinding-contact {
-        margin-top: -87px;
-    }
-
-    #wayfinding-about {
-        margin-top: -87px;
-    }
-
-    #wayfinding-services {
-        margin-top: -647px;
-    }
 }

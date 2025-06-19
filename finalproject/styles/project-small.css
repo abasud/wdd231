@@ -56,6 +56,11 @@ a {
     color: var(--primary-color);
 }
 
+.navigation.show a.active, .active {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 #menu {
     text-decoration: none;
 }
@@ -485,29 +490,4 @@ select, input[type = "date"], input[type = "text"], input[type = "time"], input[
 
 .thankyou p {
     margin: 0 1rem 0.5rem 1rem;
-}
-
-#wayfinding-thankyou {
-    margin: 0 0.2rem;
-    color: var(--primary-color);
-}
-
-#wayfinding-index {
-    margin-top: -1217px;
-    margin-left: 0.2px;
-}
-
-#wayfinding-contact {
-    margin-top: -87px;
-    margin-left: 0.2px;
-}
-
-#wayfinding-about {
-    margin-top: -87px;
-    margin-left: 0.2px;
-}
-
-#wayfinding-services {
-    margin-top: -1419px;
-    margin-left: 0.2px;
 }
