@@ -101,23 +101,11 @@ main h1 {
     z-index: 1;
 }
 
-@media (max-width: 640px) {
-
-    main {
-        height: auto;
-    }
+@media (max-width: 640px) {    
 
     .hero-img {
         display: none;
-    }
-
-    .services {
-        display: block;
-    }
-
-    .services figure {
-        margin-bottom: 2rem;
-    }
+    }    
 
     .cta-home {
         margin-top: 44rem;
@@ -126,64 +114,6 @@ main h1 {
 
     .newsletter {
         margin-top: 50rem;
-    }
-
-    .newsletter legend {
-        font-size: 1rem;
-    }
-
-    .newsletter button {
-        font-size: 0.8rem; 
-    }
-
-    footer {
-        display: block;
-    }
-
-    footer p {
-        margin: 0 1rem;
-    }
-
-    /* About page */
-
-    .about-banner img {
-        margin: 0 1rem;
-    }
-
-    .about-banner p {
-        margin: 0.5rem 1rem;
-    }
-
-    .ceo {
-        display: block;
-        margin-top: 2rem;
-    }
-
-    .ceo img {
-        display: flex;
-        justify-content: center;
-        margin-bottom: .5rem;
-    }
-
-    .board-figs {
-        display: block;
-    }
-
-    .board-figs img {
-        display: flex;
-        justify-content: center;
-    }
-
-    .board-figs figure {
-        margin-bottom: 1rem;
-    }
-
-    .service {
-        border: none;
-    }
-
-    .inner-grid {
-        display: block;
     }
 
     #checkbox label span {
@@ -307,6 +237,14 @@ footer {
     color: var(--primary-color);
     margin-bottom: 2rem;
 }
+
+footer p {
+        margin: 0 1rem;
+    }
+
+footer a {
+        margin-left: 1rem;
+    }
 
 .sociallinks {
     display: flex;
@@ -555,7 +493,7 @@ select, input[type = "date"], input[type = "text"], input[type = "time"], input[
 }
 
 #wayfinding-index {
-    margin-top: -816px;
+    margin-top: -1217px;
     margin-left: 0.2px;
 }
 
@@ -570,6 +508,6 @@ select, input[type = "date"], input[type = "text"], input[type = "time"], input[
 }
 
 #wayfinding-services {
-    margin-top: -647px;
+    margin-top: -1419px;
     margin-left: 0.2px;
 }

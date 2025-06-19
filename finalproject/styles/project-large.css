@@ -64,34 +64,7 @@
         font-size: 1.2rem; 
     }
 
-    footer {
-        display: flex;
-    }
-
-    /* About page */
-
-    .about-banner p {
-        margin-top: 0.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-
-    }
-
-    .ceo {
-        display: flex;
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-    }
-
-    .ceo img {
-        margin-left: 1rem;
-    }
-
-    .board {
-        margin: 2rem 0;
-    }
-
-    .board-figs {
+    footer div {
         display: flex;
     }
 
@@ -148,5 +121,26 @@
 
     .thankyou {
         max-width: 350px;
+    }
+
+    #wayfinding-thankyou {
+    margin: 0 0.2rem;
+    color: var(--primary-color);
+    }
+
+    #wayfinding-index {
+        margin-top: -816px;
+    }
+
+    #wayfinding-contact {
+        margin-top: -87px;
+    }
+
+    #wayfinding-about {
+        margin-top: -87px;
+    }
+
+    #wayfinding-services {
+        margin-top: -647px;
     }
 }
